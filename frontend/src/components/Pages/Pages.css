@@ -1,0 +1,82 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.Top {
+  display: flex;
+}
+.Center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Bottom {
+  display: flex;
+}
+
+.Register {
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  width: 100%;
+}
+.Login {
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  width: 100%;
+}
+
+/* .Parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  width: max-content;
+}
+.Child {
+  width: auto;
+}
+
+.Btn-Check {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  width: 24rem;
+} */
+/* .Btn-Check-Child {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+} */
+
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #17d4fe;
+  font-size: 10px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+}
+
+@media screen and (max-width: 600px) {
+  .Register {
+    height: 800px;
+  }
+
+  /* .Register {
+    width: 24rem;
+  } */
+}
