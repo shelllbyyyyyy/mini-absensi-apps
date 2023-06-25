@@ -1,14 +1,17 @@
-import SideBar from "../SideBar"
-import { home } from "../../../utils/Button"
+import { dashboard } from "../../../utils/Button"
+import ProfileSide from "./ProfileSide"
 
 const ProfileNav = () => {
   return (
     <div className="navbar fixed top-0 bg-base-100">
       <div className="flex-none">
-        <SideBar />
+        <ProfileSide />
       </div>
       <div className="flex-1">
-        <p className="btn btn-ghost normal-case text-xl" onClick={() => home()}>
+        <p
+          className="btn btn-ghost normal-case text-xl"
+          onClick={() => dashboard()}
+        >
           Halo, {localStorage.getItem("name")}
         </p>
       </div>

@@ -28,6 +28,14 @@ export function usePassword() {
   }
   return [password, handlePassword]
 }
+export function useNewPassword() {
+  const [newPassword, setNewPassword] = useState("")
+
+  const handleNewPassword = (inputPassword) => {
+    setNewPassword(inputPassword)
+  }
+  return [newPassword, handleNewPassword]
+}
 
 export function useRetryPassword() {
   const [retryPassword, setRetryPassword] = useState("")

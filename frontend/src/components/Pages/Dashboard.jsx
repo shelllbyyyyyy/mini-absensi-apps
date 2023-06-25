@@ -8,10 +8,10 @@ const Dashboard = () => {
       <div className="Top z-20">
         <ProfileNav />
       </div>
-      <div className="Center z-10">
+      <div className="Center z-0">
         <DashboardContent />
       </div>
-      <div className="Bottom z-0">
+      <div className="Bottom z-10">
         <Footer />
       </div>
     </div>

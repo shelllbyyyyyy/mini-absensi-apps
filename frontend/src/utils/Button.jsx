@@ -13,3 +13,6 @@ export const login = () => {
 export const dashboard = () => {
   window.location.replace("/dashboard")
 }
+export const updateProfile = () => {
+  window.location.replace("/update")
+}

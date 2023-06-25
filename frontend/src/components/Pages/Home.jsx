@@ -9,10 +9,10 @@ const Home = () => {
       <div className="Top z-20">
         <NavigationBar />
       </div>
-      <div className="Center z-10">
+      <div className="Center z-0">
         <Main />
       </div>
-      <div className="Bottom z-0">
+      <div className="Bottom z-10">
         <Footer />
       </div>
     </div>
